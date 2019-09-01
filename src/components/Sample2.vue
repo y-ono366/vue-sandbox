@@ -1,9 +1,9 @@
 <template>
-  <router-view />
+  <h1>test</h1>
 </template>
 
 <script>
 export default {
-  components: {}
+  name: "Sample2"
 };
 </script>
