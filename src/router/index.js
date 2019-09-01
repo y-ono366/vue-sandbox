@@ -3,7 +3,7 @@ import Router from "vue-router";
 
 import index from "@/components/Index";
 import sample1 from "@/components/Sample1";
-import sample2 from "@/components/Sample2/Index";
+import tasks from "@/components/Tasks/Index";
 
 Vue.use(Router);
 
@@ -18,8 +18,8 @@ export default new Router({
       component: sample1
     },
     {
-      path: "/sample2",
-      component: sample2
+      path: "/tasks",
+      component: tasks
     }
   ]
 });
