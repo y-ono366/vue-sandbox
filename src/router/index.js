@@ -3,7 +3,7 @@ import Router from "vue-router";
 
 import index from "@/components/Index";
 import sample1 from "@/components/Sample1";
-import sample2 from "@/components/Sample2";
+import sample2 from "@/components/Sample2/Index";
 
 Vue.use(Router);
 
